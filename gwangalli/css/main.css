@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*메인슬라이더 시작*/
+.mainSlider{background:url(../images/background.png) no-repeat; height:1000px;}
+
+.mainSlider .inner{position:relative;}
+.mainText{color:#fff; font-size:20px; position:absolute; right:0; top:250px;}
+.mainText .dirud{padding-left:30px; letter-spacing:20px; background:url(../images/box1.png) no-repeat 0 center;}
+.mainText .dirud2{color:#333; font-weight:600;}
+.mainText .busan{font-size:100px; line-height:100px; display:block;}
+.mainText .gwangalli{font-size:60px; line-height:60px;}
+/*메인슬라이더 끝*/
+
+/*content1*/
+.content1{color:#333; padding:100px 50px; position:relative;}
+
+.con1Text1{}
+.con1Text1 p{font-size:50px; line-height:50px;}
+.con1Text1 .con1Text1Top{font-size:65px; font-weight:600; margin-bottom:20px;}
+
+.con1Text2{font-size:15px; margin-top:50px;}
+.con1Text2 p{}
+
+.go{width:120px; background:#333; text-align:center; position:absolute; top:120px; right:50px;}
+.go span a{height:40px; line-height:40px; display:block; color:#fff; font-size:15px; font-weight:200;}
+.go:hover a{font-weight:400;}
+/*content1*/
+
+/*content2*/
+.content2{}
+
+.con2Background{height:800px; background:url(../images/con2_backImg.png) no-repeat right center;}
+.con2Text{text-align:center; padding-top:80px; padding-bottom:50px; width:1200px;}      /*간격동일하게*/
+.con2Text1Top{background:url(../images/box2.png) no-repeat 430px center; color:#fff; font-size:20px; font-weight:500; letter-spacing:20px; text-indent:-50px;}
+.con2Text1Top span{color:#333;}
+.con2Text2Top{color:#333; font-size:50px; font-weight:600; line-height:50px;}
+.con2Text2Top span{}
+
+.con2Background2{width:1200px; height:500px; background:url(../images/con2_img.png) no-repeat center center; background-size:100%; position:relative; transition:background-size 0.5s;}
+.con2Background2:hover{background-size:105%;}  /*???*/
+.con2Box{width:400px; height:500px; background:rgba(000,000,000,0.8); text-align:center; margin-left:800px;}
+.con2Box .con2BoxText1{color:#fff; font-size:40px; padding-top:200px;}
+.con2Box .con2BoxText2{color:#fff; font-size:15px;}
+
+.btn{}
+.btn .btnL{position:absolute; left:-64px; top:50%; margin-top:-22px;}
+.btn .btnL,.btn .btnR a{display:block;}
+.btn .btnR{position:absolute; right:-64px; top:50%; margin-top:-22px;}
+.btn .btnR a{}
+.btn .btnR img{}
+/*content2*/
+
+/*content3*/
+.content3{background:#eee; padding-top:80px; margin-top:100px;}
+
+.con3_1{padding-bottom:100px;}
+.con3Img{height:500px; background:url(../images/con3_img1.png) no-repeat 440px center; position:relative;}
+.con3Box1{width:440px; height:300px; background:#151932; position:absolute; left:60px; top:40px;}
+.con3Box1 p{color:#fff; font-size:15px;}
+.con3Box1 .where{padding-left:100px; padding-top:60px; text-shadow:-1px -1px 0 rgba(333,333,333,0.3);}
+.con3Box1 .con3Text1{font-size:50px; line-height:50px; font-weight:500; padding-left:100px;}
+.con3Box1 .con3Text1 span{display:block; padding-left:80px;}
+.con3Box1 .con3Text2{text-align:center; padding-top:30px;}
+.more{position:absolute; left:360px; bottom:60px; transition:left 0.5s;}
+.more:hover{left:370px;}
+.more a{}
+.more img{}
+
+.con3_2{padding-bottom:100px;}
+.con3_2 .con3Img{background:url(../images/con3_img2.png) no-repeat 60px center;}
+.con3_2 .con3Box1{background:#706680; left:700px;}
+.con3_2 .where{padding-left:160px; padding-top:80px;}
+.con3_2 .con3Text1{padding-left:0; text-align:center;}
+.con3_2 .more{left:770px; transition:left 0.5s;}
+.con3_2 .more:hover{left:760px;}
+
+.con3_3{padding-bottom:80px;}
+.con3_3 .con3Img{background:url(../images/con3_img3.png) no-repeat 440px center;}
+.con3_3 .where{padding-left:90px; padding-top:80px}
+.con3_3 .con3Text1{padding-left:0; text-align:center;}
+
+/*content4*/
+.content4{margin:100px auto;}
+
+.con4Box1{float:left;}
+.con4Box1 h2{padding-bottom:30px;}
+.con4Box1 h2 img{}
+.con4Box1 div{}
+.con4Box1 div img{}
+.con4Box1 a{}
+.con4Box1 p{font-size:14px;padding-left:5px;}
+.con4Box1 p span{display:block;}
+.con4Text1{font-size:15px; font-weight:bold; }
+.con4Text1{margin-bottom:10px;}
+.con4Box01:hover p{text-decoration:underline;}
+
+.notice1{float:left; width:290px; height:390px; background:#333;}
+.notice1 a{color:#fff;}
+.notice1 p{padding:25px 25px 0 25px;}
+.notice1 span{}
+.notice1 .con4Text2{font-size:20px;  padding-top:30px; padding-bottom:50px;}
+.con4Date{font-size:30px; line-height:30px; font-weight:600;}
+.con4Text3{}
+
+.noBox{margin-left:20px; margin-right:10px; background:none; border:1px solid #333; box-sizing:border-box;}
+.noBox a{color:#333;}
+

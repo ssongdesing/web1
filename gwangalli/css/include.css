@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*해더시작*/
+#header{background:#000; width:1920px; position:absolute;}
+
+/*해더탑 시작*/
+.headerTop{}
+.hTop{float:right;}
+.utill{float:left;}
+.utill li{float:left;}
+.utill li:before{content:""; display:inline-block; width:1px; height:8px; background:#fff; margin:0 10px;}
+.utill li:first-child:before{display:none;}
+.utill li a{font-size:12px; color:#fff; font-weight:100;}
+
+.search{float:left; text-align:right; margin-left:50px; position:relative; height:20px; line-height:20px;}
+.search input[type=text]{background:#000; color:#fff; border:1px solid #fff; height:100%; font-size:11px; text-indent:5px;}
+.search a{position:absolute; right:5px; border-left:1px solid #fff; padding-left:5px; height:24px;}
+/*해더탑 끝*/
+/*헤더바틈시작*/
+.headerBottom{}
+
+.headerBottom h1{float:left;}
+.gnb{float:right; margin-right:150px;}
+.gnb>li{float:left; padding:0 50px; height:80px; line-height:80px; box-sizing:border-box; font-size:18px; position:relative;}
+.gnb a{color:#fff; display:block;}
+
+/*lnb*/
+.gnb .lnb{font-size:15px; font-weight:300; text-align:center; background:#151932; position:absolute; top:70px; left:50%; margin-left:-75px; max-height:0; overflow:hidden; z-index:1; transition:max-height 1s;}
+.lnb li{height:60px; line-height:60px; width:130px; padding:0 10px;} 
+.lnb li a{}
+/*lnb*/
+/*hover*/
+.gnb>li:hover a{transform:translateY(-5px);}
+.gnb>li:hover .lnb{max-height:250px;}
+.lnb li:hover{font-weight:500;}
+/*hover*/
+
+/*헤더바틈끝*/
+
+/*해더끝*/
+
+/*footer*/
+#footer{background:url(../images/footer_background.png) no-repeat; text-align:center; color:#fff; font-size:13px; font-weight:100;  padding-top:50px;}
+
+.fTop{position:relative;}
+.fTextTop{padding:15px 0;}
+#footer span:after{content:""; display:inline-block; width:1px; height:8px; background:#fff; margin:0 5px;}
+#footer span:last-child:after{display:none;}
+.fTextTop a{color:#fff;}
+.fTextTop span:hover{text-decoration:underline;}
+
+.fSns{position:absolute; top:50%; margin-top:-15px; right:0;}
+.fSns li{float:left; padding-left:10px;}
+.fSns a{}
+.fSns img{}
+.fSns li:hover{transform:translateY(-5px);}
+
+.fCopy{padding-top:10px; padding-bottom:50px;}
