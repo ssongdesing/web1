@@ -14,7 +14,7 @@
 
 .search{float:left; text-align:right; margin-left:50px; position:relative; height:20px; line-height:20px;}
 .search input[type=text]{background:#000; color:#fff; border:1px solid #fff; height:100%; font-size:11px; text-indent:5px;}
-.search a{position:absolute; right:5px; border-left:1px solid #fff; padding-left:5px; height:24px;}
+.search a{position:absolute; right:5px; border-left:1px solid #fff; padding-left:5px; height:24px; top:0;}
 /*해더탑 끝*/
 /*헤더바틈시작*/
 .headerBottom{}

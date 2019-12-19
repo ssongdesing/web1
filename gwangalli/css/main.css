@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 /*메인슬라이더 시작*/
-.mainSlider{background:url(../images/background.png) no-repeat; height:1000px;}
+.mainSlider{background:url(../images/background.png) no-repeat center; height:1000px; background-size:cover;}
 
 .mainSlider .inner{position:relative;}
-.mainText{color:#fff; font-size:20px; position:absolute; right:0; top:250px;}
+.mainText{color:#fff; font-size:20px; position:absolute; right:0; top:230px;}
 .mainText .dirud{padding-left:30px; letter-spacing:20px; background:url(../images/box1.png) no-repeat 0 center;}
 .mainText .dirud2{color:#333; font-weight:600;}
 .mainText .busan{font-size:100px; line-height:100px; display:block;}
