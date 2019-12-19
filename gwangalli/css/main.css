@@ -36,8 +36,8 @@
 .con2Text2Top{color:#333; font-size:50px; font-weight:600; line-height:50px;}
 .con2Text2Top span{}
 
-.con2Background2{width:1200px; height:500px; background:url(../images/con2_img.png) no-repeat center center; background-size:100%; position:relative; transition:background-size 0.5s;}
-.con2Background2:hover{background-size:105%;}  /*???*/
+.con2Background2{width:1200px; height:500px; background:url(../images/con2_img.png) no-repeat center center; background-size:100%; position:relative;}
+.con2Background2:hover{background-size:101%; transition:background-size 0.3s;}  /*???*/
 .con2Box{width:400px; height:500px; background:rgba(000,000,000,0.8); text-align:center; margin-left:800px;}
 .con2Box .con2BoxText1{color:#fff; font-size:40px; padding-top:200px;}
 .con2Box .con2BoxText2{color:#fff; font-size:15px;}
@@ -94,7 +94,8 @@
 .con4Text1{margin-bottom:10px;}
 .con4Box01:hover p{text-decoration:underline;}
 
-.notice1{float:left; width:290px; height:390px; background:#333;}
+.notice1{float:left; width:290px; height:390px; background:#333; transition:border-radius 0.2s;}
+.notice1:hover{border-radius:0 0 20% 0;} 
 .notice1 a{color:#fff;}
 .notice1 p{padding:25px 25px 0 25px;}
 .notice1 span{}
